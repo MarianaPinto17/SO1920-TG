@@ -1,0 +1,17 @@
+COMANDOS:
+
+no build :
+ 1- cmake ../src
+ 2- make
+
+no bin :
+ 1- ./createDisk /tmp/dsk 1000
+ 2- ./mksofs /tmp/dsk
+ 3- ./testtool /tmp/dsk
+
+
+apontamentos:
+
+./testtool -b nome do disco -> stores
+./testtool -b -r número da tua funçao -> todas menos a que estou a fazer
+
